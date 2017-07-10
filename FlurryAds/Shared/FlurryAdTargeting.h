@@ -76,7 +76,7 @@ typedef enum {
         adTargeting.location = locationManager.location;
     }
  *  @endcode
- *  @param location A CLLocation object containing latitude and longitude.
+ *  @return location A CLLocation object containing latitude and longitude.
  *
  */
 @property (nonatomic, strong) CLLocation* location;
@@ -104,7 +104,7 @@ typedef enum {
     }
  *  @endcode
  *
- *  @param userCookies The information about the user executing ad actions. Note: do not transmit personally identifiable information in the user cookies.
+ *  @return userCookies The information about the user executing ad actions. Note: do not transmit personally identifiable information in the user cookies.
  */
 @property (nonatomic, strong) NSDictionary *userCookies;
 
@@ -131,7 +131,7 @@ typedef enum {
     }
  *  @endcode
  *
- *  @param keywords The information about the user to be used in targeting an ad. Note: do not transmit personally identifiable information in keywords.
+ *  @return keywords The information about the user to be used in targeting an ad. Note: do not transmit personally identifiable information in keywords.
  */
 @property (nonatomic, strong) NSDictionary *keywords;
 
